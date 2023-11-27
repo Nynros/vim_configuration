@@ -1,7 +1,19 @@
 set nocompatible
-set number
+filetype on
+filetype plugin on
+filetype indent on
+set shiftwidth=4
 set tabstop=4
-set autoindent
+set expandtab
+set nobackup
+set scrolloff=10
+set nowrap
+set incsearch
+set ignorecase
+set smartcase
 set showcmd
-set confirm
-set notimeout ttimeout ttimeoutlen=200
+set showmode
+set showmatch
+set hlsearch
+set history=1000
+set number
